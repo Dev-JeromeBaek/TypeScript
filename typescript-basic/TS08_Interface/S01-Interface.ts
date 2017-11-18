@@ -12,7 +12,6 @@
         - string index = optional property
 */
 
-
 interface Person{
     name: string;
     age?: number;
