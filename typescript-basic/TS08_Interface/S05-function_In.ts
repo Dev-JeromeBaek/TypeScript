@@ -3,38 +3,38 @@
         - function in interface
 */
 
-interface Person05 {
+interface Person8_5 {
 	name: string;
 	age?: number;
-	hello05(): void;
+	hello8_5(): void;
 }
 
-const p51: Person05 = {
+const p8_51: Person8_5 = {
 	name: 'Jerome',
 	age: 27,
-	hello05: function(): void {
+	hello8_5: function(): void {
 		console.log(this);
 		console.log(`안녕하세요! ${this.name} 입니다.`);
 	}
 };
 
-const p52: Person05 = {
+const p8_52: Person8_5 = {
 	name: 'Jerome',
 	age: 27,
-	hello05: function(): void {
+	hello8_5: function(): void {
 		console.log(this);
 		console.log(`안녕하세요! ${this.name} 입니다.`);
 	}
 };
 
-const p53: Person05 = {
+const p8_53: Person8_5 = {
 	name: 'Jerome',
-	hello05: (): string => {
+	hello8_5: (): string => {
 		return 'Hello';
 	}
 };
 
-function hello05(p: Person05): void {
+function hello8_5(p: Person8_5): void {
 	console.log(`안녕하세요 ${p.name} 입니다.`);
 	// p: Person5 입력 설정
 	// void 출력 설정

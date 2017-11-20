@@ -4,16 +4,16 @@
 
 */
 
-interface Person07 {
+interface Person8_7 {
     name: string;
     age?: number;
 }
 
-interface Korean07 extends Person07 {
+interface Korean8_7 extends Person8_7 {
     city: string;
 }
 
-const k71: Korean07 = {
+const k8_71: Korean8_7 = {
     name: 'JeromaBaek',
     city: 'Seoul'
 }

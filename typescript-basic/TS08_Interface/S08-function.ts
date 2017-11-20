@@ -5,14 +5,14 @@
         		사용할 떄 한다는 점을 명심.
 */
 
-interface HelloPerson08 {
+interface HelloPerson8_8 {
 	// (name: string, age: number): void;
 	(name: string, age?: number): void;
 }
 
-let helloPerson81: HelloPerson08 = function (name: string) {
+let helloPerson8_81: HelloPerson8_8 = function (name: string) {
 	console.log(`안녕하세요! ${name} 입니다.`);
 };
 
-helloPerson81('Jerome');	// 안녕하세요! Jerome 입니다.
+helloPerson8_81('Jerome');	// 안녕하세요! Jerome 입니다.
 

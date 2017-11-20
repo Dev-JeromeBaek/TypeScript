@@ -1,22 +1,22 @@
 /*
-    ## Interfac
+    ## Interface
         - string index = optional property
 */
 
-interface StringDictionary10 {
+interface StringDictionary8_10 {
     [index: string]: string;
     name: string;
 }
 
-const sd101: StringDictionary10 = {
+const sd8_101: StringDictionary8_10 = {
     name: '이름'    // 필수
 };
 
-sd101.any = 'any';    // 어떤 프로퍼티도 가능
+sd8_101.any = 'any';    // 어떤 프로퍼티도 가능
 
 ////////////////////////////////////////
 
-interface StringDictionaryNo10 {
+interface StringDictionaryNo8_10 {
     [index: string]: string;
     // name: number;    
     // (X) 인덱서블 타입이 string 값을 가지기 때문에

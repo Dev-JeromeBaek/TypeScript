@@ -12,15 +12,15 @@
         - string index = optional property
 */
 
-interface Person01{
+interface Person8_1{
     name: string;
     age?: number;
 }
 
-const person01: Person01 = {
+const person8_1: Person8_1 = {
     name: 'Jerome',
 };
 
-function hello1(p11: Person01): void {
-    console.log(`안녕하세요 ${p11.name} 입니다.`);
+function hello1(p8_11: Person8_1): void {
+    console.log(`안녕하세요 ${p8_11.name} 입니다.`);
 }

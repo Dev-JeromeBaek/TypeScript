@@ -3,28 +3,28 @@
         - class implements interface
 */
 
-interface IPerson06 {
+interface IPerson8_6 {
 	name: string;
 	age?: number;
 	hello06(): void;
 }
 
-class Person06 implements IPerson06 {
+class Person8_6 implements IPerson8_6 {
 	name: string;
 
 	constructor(name: string) {
 		this.name = name;
 	}
 
-	hello06(): void {
+	hello8_6(): void {
 		console.log(`안녕하세요! ${this.name} 입니다.`);
 	}
 
-	public hi06(): void {
+	public hi8_6(): void {
 		console.log(`안녕 ${this.name} 임.`);
 	}
 }
 
-const person61 = new Person06('Jerome');
-person61.hello06();	// 안녕하세요! Jerome 입니다.
-person61.hi06();	// 안녕 Jerome 임.
+const person8_61 = new Person8_6('Jerome');
+person8_61.hello8_6();	// 안녕하세요! Jerome 입니다.
+person8_61.hi8_6();	// 안녕 Jerome 임.
