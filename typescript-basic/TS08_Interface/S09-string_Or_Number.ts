@@ -3,26 +3,26 @@
         - string Or numner (indexable type)
 */
 
-interface StringArray9 {
+interface StringArray09 {
     [index: number]: string;
 }
 
-const sa9: StringArray9 = {};    // 옵셔널하다.
-sa9[100] = '백';
+const sa91: StringArray09 = {};    // 옵셔널하다.
+sa91[100] = '백';
 
-interface StringDictionary9 {
+interface StringDictionary09 {
     [index: string]: string;
 }
 
-const sd9: StringDictionary9 = {};    // 옵셔널하다.
-sd9.hundred = '백';
+const sd92: StringDictionary09 = {};    // 옵셔널하다.
+sd92.hundred = '백';
 
-interface StringArrayDiscionary9 {
+interface StringArrayDiscionary09 {
     [index: number]: string;
     [index: string]: string;
 }
 
-const sad9: StringArrayDiscionary9 = {};
-// 당엲 옵셔널하다.
-sad9[100] = '백';
-sad9.hundred = '백';
+const sad93: StringArrayDiscionary09 = {};
+// 당연히 옵셔널하다.
+sad93[100] = '백';
+sad93.hundred = '백';

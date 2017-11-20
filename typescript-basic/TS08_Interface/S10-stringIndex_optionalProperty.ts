@@ -8,11 +8,11 @@ interface StringDictionary10 {
     name: string;
 }
 
-const sd10: StringDictionary10 = {
+const sd101: StringDictionary10 = {
     name: '이름'    // 필수
 };
 
-sd10.any = 'any';    // 어떤 프로퍼티도 가능
+sd101.any = 'any';    // 어떤 프로퍼티도 가능
 
 ////////////////////////////////////////
 

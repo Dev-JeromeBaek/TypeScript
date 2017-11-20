@@ -3,30 +3,30 @@
         - basic
 */
 
-function hello(person: { name: string; age: number; }): void {
+function hello21(person: { name: string; age: number; }): void {
     console.log(`안녕하세요! ${person.name} 입니다.`);
 }
 
-const p: { name: string; age: number; } = {
+const p22: { name: string; age: number; } = {
     name: 'Jerome',
     age: 27
 }
 
-hello(p);    // 안녕하세요! Jerome 입니다.
+hello21(p22);    // 안녕하세요! Jerome 입니다.
 
 //////////////////////////////////////////////////////////////////
 
-interface Person {
+interface Person02 {
     iName: string;
     iAge: number;
 }
 
-function hello(person: Person): void {
+function hello22(person: Person02): void {
     console.log(`안녕하세요! ${person.iName} 입니다.`);
 }
 
-const iP: Person = {
+const iP22: Person02 = {
     iName: 'Jerome',
     iAge: 27
 }
-hello(iP);
+hello22(iP22);
