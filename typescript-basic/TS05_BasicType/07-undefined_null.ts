@@ -36,3 +36,4 @@ let u5_72: undefined = null;    // (X)
 let v5_72: void = undefined;    // (O)
 
 let union5_72: string | null | undefined = 'str';
+

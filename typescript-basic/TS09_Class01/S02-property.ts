@@ -21,3 +21,14 @@ person9_2.age = 27;
 console.log(person9_2);    // Person9_21 { name: 'Jeromne', age: 27}
 
 // 2
+class Person9_22 {
+    name: string = 'Jerome';
+    age: number = 27;
+
+    constructor() {
+        console.log(this.name);    // 'Jerome'
+    }
+}
+
+const person9_22: Person9_22 = new Person9_22();
+console.log(person9_22);    // Person9_22 {name: 'Jerome', age: 27}
