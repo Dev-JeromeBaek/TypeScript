@@ -7,12 +7,37 @@
         - 3. 접근제어자 (Access Modifier)는 public이 디폴트 이다.
 */
 
-class Person9_1 {
+// 1
+class Person9_11 {
     name: string;
     age: number;
 }
 
-const person11: Person9_1 = new Person9_1();
-console.log(person11);    // Person {}
-person11.age = 27;
-console.log(person11.name);    // undefined
+const person9_11: Person9_11 = new Person9_11();
+console.log(person9_11);    // Person9_1 {}
+person9_11.age = 27;
+console.log(person9_11.name);    // undefined
+
+// 2
+class Person9_12 {
+    name: string;
+    age: number;
+}
+
+const person9_12 = new Person9_12();
+
+person9_12.name = 'Jerome';
+person9_12.age = 27;
+
+// 3
+class Person9_13 {
+    name: string;
+    age: number;
+
+    constructor(name: string) {
+        this.name = name;
+    }
+}
+const person9_13 = new Person9_13('Jerome');
+
+person9_13.age = 27;

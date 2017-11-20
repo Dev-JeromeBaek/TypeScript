@@ -12,7 +12,7 @@ true    // boolean 리터럴
 
 // object 리터럴
 {
-    name: 'Jerome',
-    age: 27
+    name5_21: 'Jerome',
+    age5_21: 27
 }
 

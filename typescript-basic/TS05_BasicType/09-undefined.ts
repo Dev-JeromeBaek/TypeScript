@@ -6,7 +6,7 @@
         - 런타임에서 typeof 연산자를 이용해서 알아내면, undefined 이다.
 */
 
-let u: undefined = undefined;
+let u5_91: undefined = undefined;
 
-console.log(u);    // undefined
-console.log(typeof u);    // undefined
+console.log(u5_91);    // undefined
+console.log(typeof u5_91);    // undefined

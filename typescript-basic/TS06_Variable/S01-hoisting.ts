@@ -3,12 +3,12 @@
         - "끌어 올리는 장치", "끌어 올리기"라는 뜻. 
 */
 
-console.log(hoisted_var);
+console.log(hoisted_var6_11);
 
-var hoisted_var = '변수를 아래서 선언했는데 사용이 위에서 가능';
+var hoisted_var6_11 = '변수를 아래서 선언했는데 사용이 위에서 가능';
 
 /////////////////////////////////////////////////////////////
 
-console.log(hoisted_let);
+console.log(hoisted_let6_11);
 
-var hoisted_let = '변수를 아래서 선언했는데 사용이 위에서 불가';
+var hoisted_let6_11 = '변수를 아래서 선언했는데 사용이 위에서 불가';

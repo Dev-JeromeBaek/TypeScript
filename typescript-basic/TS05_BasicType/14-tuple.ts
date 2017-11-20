@@ -6,14 +6,14 @@
 */
 
 // Declare a typle type
-let x: [string, number];
+let x5_141: [string, number];
 // Initialize it
-x = ["hello", 10];    // OK
+x5_141 = ["hello", 10];    // OK
 // Initialize it incorrectly
-x = [10, "hello"];    // Error
+x5_141 = [10, "hello"];    // Error
 
-x[3] = "world";    // OK, 'string' can be assigned to 'string | number'
+x5_141[3] = "world";    // OK, 'string' can be assigned to 'string | number'
 
-console.log(x[5].toString());    // OK, 'string' and 'number' both have 'toString'
+console.log(x5_141[5].toString());    // OK, 'string' and 'number' both have 'toString'
 
-x[6] = true;    // Error, 'boolean' isn't 'string | number'
+x5_141[6] = true;    // Error, 'boolean' isn't 'string | number'

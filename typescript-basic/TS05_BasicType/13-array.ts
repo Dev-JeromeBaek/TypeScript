@@ -6,6 +6,6 @@
             - 타입[]
 */
 
-let list: number[] = [1, 2, 3];
+let list5_131: number[] = [1, 2, 3];
 
-let list2: Array<number> = [1, 2, 3];
+let list5_132: Array<number> = [1, 2, 3];

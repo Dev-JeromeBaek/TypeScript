@@ -5,17 +5,17 @@
 */
 
 //Function returning never must have unreachable end point
-function error(message: string) never {
-    throw new Error(message);
+function error5_121(message5_121: string) never {
+    throw new Error5_121(message5_121);
 }
 
 // Inferred return type is never
-function fail() {
-    return error("Something failed");
+function fail5_121() {
+    return error5_121("Something failed");
 }
 
 // Function returning never must have unreachable end point
-function infiniteLoop(): never {
+function infiniteLoop5_121(): never {
     while(true) {
         
     }

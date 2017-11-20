@@ -6,7 +6,7 @@
         - 런타임에서 typeof 연산자를 이용해서 알아내면, object.
 */
 
-let n: null = null;
+let n5_81: null = null;
 
-console.log(n);    // null
-console.log(typeof n);    // object
+console.log(n5_81);    // null
+console.log(typeof n5_81);    // object

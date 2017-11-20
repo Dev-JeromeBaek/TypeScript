@@ -6,9 +6,9 @@
             주로 접근을 제어하는데 쓰는 경우가 많다.
 */
 
-let sym = Symbol();
-let obj = {
-    [sym]: "vlaue"
+let sym5_161 = Symbol5_161();
+let obj5_161 = {
+    [sym5_161]: "vlaue"
 };
 
-console.log(obj[sym]);    // "value"
+console.log(obj5_161[sym5_161]);    // "value"

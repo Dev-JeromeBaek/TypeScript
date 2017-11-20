@@ -9,14 +9,14 @@
 */
 
 // 타입을 명시하지 않은 경우.
-function returnNoVoid(message) {
-    console.log(message)
+function returnNoVoid5_101(message5_101) {
+    console.log(message5_101)
 }
 
 // 타입을 명시해준 경우.
-function returnVoid(message): void {
-    console.log(message);
+function returnVoid5_101(message5_101): void {
+    console.log(message5_101);
 }
 
-returnNoVoid('리턴이 없다.');
-returnVoid('리턴이 없다.');
+returnNoVoid5_101('리턴이 없다.');
+returnVoid5_101('리턴이 없다.');

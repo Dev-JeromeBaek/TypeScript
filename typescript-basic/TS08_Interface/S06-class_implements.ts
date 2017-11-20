@@ -6,7 +6,7 @@
 interface IPerson8_6 {
 	name: string;
 	age?: number;
-	hello06(): void;
+	hello8_6(): void;
 }
 
 class Person8_6 implements IPerson8_6 {

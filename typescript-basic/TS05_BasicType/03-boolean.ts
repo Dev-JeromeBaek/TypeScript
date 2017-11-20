@@ -9,14 +9,15 @@
         - 쓰는 방법의 차이가 있음.
 */
 
-let isDone: boolean = flase;
+let isDone5_31: boolean = flase;
 
-typeof isDone === 'boolean'    // true
+typeof isDone5_31 === 'boolean'    // true
 
 // Type 'boolean' is assignable to type 'Boolean'.
-let isOk: Boolean = true;
+let isOk5_31: Boolean = true;
 
 // Type 'Boolean' is not assignable to type 'boolean'.
 // 'boolean' is a primitive, but 'Boolean' is a wrapper object.
 // Perfer using 'boolean' when possible.
-let isNotOk: boolean = new Boolean(true);
+// let isNotOk5_51: boolean = new Boolean(true);
+let isNotOk5_31: Boolean = new Boolean(true);

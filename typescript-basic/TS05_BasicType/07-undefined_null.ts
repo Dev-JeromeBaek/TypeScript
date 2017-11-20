@@ -8,8 +8,8 @@
 
 // 이 변수들에 할당할 수 있는 것들은 거의 없다.
 
-let u: undefined = undefined;
-let n: null = null;
+let u5_71: undefined = undefined;
+let n5_71: null = null;
 
 
 /*
@@ -22,17 +22,17 @@ let n: null = null;
                 union type을 이용해야 함.
 */
 
-let name: string = null;
-let age: number = undefined;
+let name5_71: string = null;
+let age5_71: number = undefined;
 
 // strictNullChecks => true
 // Type 'null' is not assignable to type 'string'.
-let name: string = null; (X)
+let name5_72: string = null; (X)
 
 // null => null || void, undefined => undefined || void
 // Type ' null' is not assignable to type 'undefined'.
-let u: undefined = null;    // (X)
+let u5_72: undefined = null;    // (X)
 
-let v: void = undefined;    // (O)
+let v5_72: void = undefined;    // (O)
 
-let union: string | null | undefined = 'str';
+let union5_72: string | null | undefined = 'str';

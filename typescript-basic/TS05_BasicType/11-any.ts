@@ -7,8 +7,8 @@
             - nolmplicitAny
 */
 
-function returnAny(message): any {
-    console.log(message);
+function returnAny5_111(message5_111): any {
+    console.log(message5_111);
 }
 
-returnAny('리턴은 아무거나');
+returnAny5_111('리턴은 아무거나');

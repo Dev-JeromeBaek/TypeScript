@@ -6,6 +6,6 @@
             둘러싸기 위해 큰따옴표("")나, 작은 따옴표('')를 사용.
 */
 
-let name: string = "Jerome";
+let name5_51: string = "Jerome";
 
-name = 'Jerome';
+name5_51 = 'Jerome';

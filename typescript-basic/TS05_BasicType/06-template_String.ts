@@ -5,13 +5,13 @@
         - 포함된 표현식은 `${expr}`와 같은 형태로 사용합니다.
 */
 
-let fullName: string = `Seungyeob Baek`;
-let age: number = 27;
+let fullName5_61: string = `Seungyeob Baek`;
+let age5_61: number = 27;
 
-let tmpl_Sentence: string = `Hello, my name is ${fullName}.
+let tmpl_Sentence5_61: string = `Hello, my name is ${fullName5_61}.
 
-I'll be ${age+1} years old next month.`;
+I'll be ${age5_61+1} years old next month.`;
 
 // template string 을 사용하지 않을 경우
-let noTmpl_Sentence: string = "Hello, my name is " + fullName + ".\n\n" +
-    "I'll be " + (age+1) + " years old next month.";
+let noTmpl_Sentence5_61: string = "Hello, my name is " + fullName5_61 + ".\n\n" +
+    "I'll be " + (age5_61+1) + " years old next month.";
