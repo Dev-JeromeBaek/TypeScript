@@ -15,8 +15,8 @@ another7_11 = 'Jerome';
 
 
 // aliasing 적용 전
-let a7_11: any;
-let b7_11: string | number;
+let a7_11: any = null;
+let b7_11: string | number = null;
 // b7_1: string이나 number만 들어갈 수 있음.
 
 b7_11 = 'string';

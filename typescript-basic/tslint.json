@@ -8,7 +8,4 @@
         "": ''
     },
     "rulesDirectory": [],
-    "compilerOptions": {
-        "strictNullChecks": true
-    }
 }

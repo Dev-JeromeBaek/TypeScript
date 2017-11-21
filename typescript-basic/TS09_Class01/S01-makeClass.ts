@@ -9,8 +9,8 @@
 
 // 1
 class Person9_11 {
-    name: string;
-    age: number;
+    name: string = null;
+    age: number = null;
 }
 
 const person9_11: Person9_11 = new Person9_11();
@@ -20,8 +20,8 @@ console.log(person9_11.name);    // undefined
 
 // 2
 class Person9_12 {
-    name: string;
-    age: number;
+    name: string = null;
+    age: number = null;
 }
 
 const person9_12 = new Person9_12();
@@ -31,8 +31,8 @@ person9_12.age = 27;
 
 // 3
 class Person9_13 {
-    name: string;
-    age: number;
+    name: string = null;
+    age: number = null;
 
     constructor(name: string) {
         this.name = name;

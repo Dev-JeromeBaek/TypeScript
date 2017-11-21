@@ -7,8 +7,8 @@
 */
 
 class Person9_3 {
-    public name9_31: string;
-    private _age9_31: number;
+    public name9_31: string = null;
+    private _age9_31: number = null;
 
     constructor(_age9_32: number) {
         this._age9_31 = _age9_32;

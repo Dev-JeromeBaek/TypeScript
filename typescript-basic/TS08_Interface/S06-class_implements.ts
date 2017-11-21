@@ -10,7 +10,7 @@ interface IPerson8_6 {
 }
 
 class Person8_6 implements IPerson8_6 {
-	name: string;
+	name: string = null;
 
 	constructor(name: string) {
 		this.name = name;

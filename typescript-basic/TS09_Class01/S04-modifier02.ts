@@ -7,8 +7,8 @@
 */
 
 class Parent9_4 {
-    private privateProp9_41: string;
-    protected protectedProp9_41: string;
+    private privateProp9_41: string = null;
+    protected protectedProp9_41: string = null;
 
     constructor() {
 

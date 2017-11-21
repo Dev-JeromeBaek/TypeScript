@@ -30,7 +30,7 @@ person9_61.printName();    // 이름은 Jeromne 입니다.
 // 2
 class Person9_62 {
     protected _name9_62: string = 'Jerome';
-    private _age9_62: number;
+    private _age9_62: number = null;
 
     constructor(name: string, age: number) {
         this._name9_62 = name;

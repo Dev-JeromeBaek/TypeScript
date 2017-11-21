@@ -6,8 +6,8 @@
 
 // 1
 class Person9_2 {
-    name: string;
-    age: number;
+    name: string = null;
+    age: number = null;
 
     constructor() {
         console.log(this.name === null);    // false

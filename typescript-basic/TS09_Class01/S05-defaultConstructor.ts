@@ -5,8 +5,8 @@
 */
 
 class Person9_5 {
-    public name9_51: string;
-    private _age9_51: number;
+    public name9_51: string = null;
+    private _age9_51: number = null;
 
     constructor(age: number) {
         this._age9_51 = age;

@@ -22,8 +22,8 @@ let ip7_71: Iperson7_7 = {
 };
 
 class PersonImpl7_7 implements PersonAlias7_7 {
-    name: string;
-    age: number;
+    name: string = null;
+    age: number = null;
 
     hello() {
         console.log('안녕하세요');
