@@ -5,7 +5,7 @@
             처리 방식 덕분.
 */
 
-let _name5_11 = 'Jerome';
+let _name5_1 = 'Jerome';
 
-_name5_11.toString();
+_name5_1.toString();
 
