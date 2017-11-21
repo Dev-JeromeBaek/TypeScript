@@ -2,7 +2,7 @@
     ## Class와 readonly
         - 1. private readonly로 선언된 경우, 생성자에서는 할당이 가능하다.
         - 2. private readonly로 선언된 경우, 생성자 이외에서는 할당이 불가능하다.
-        - 3. public readonly로 선언도니 경우, 클래스 외부에서는 다른값을 할당할 수 없다.
+        - 3. public readonly로 선언된 경우, 클래스 외부에서는 다른값을 할당할 수 없다.
         - 4. 마치 getter만 있는 경우와 같다.
 */
 

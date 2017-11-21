@@ -9,6 +9,7 @@
     - pivate에 static을 사용 한다는건 여러가지로의 의견이 있음. 
 */
 
+// 1
 class Person10_2 {
     public static CITY = "";
     private static lastName: string = 'Baek';

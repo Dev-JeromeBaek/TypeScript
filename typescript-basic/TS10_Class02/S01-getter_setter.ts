@@ -56,7 +56,6 @@ person10_12.setName('Jerome');
 console.log(person10_12.getName());
 
 // 3
-
 interface IPerson10_13 {
     getName(): string;
 }
