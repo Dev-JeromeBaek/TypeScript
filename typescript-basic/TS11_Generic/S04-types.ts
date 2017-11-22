@@ -11,3 +11,13 @@ const tsHello11_4: TsHelloGeneric11_4 = <T>(message: T): T => {
 }
 
 console.log(tsHello11_4<string>('Hello').length);
+
+/*
+type HelloGeneric = <T>(message: T) => T;
+
+const Hello: HelloGeneric = <T>(message: T): T => {
+    return message;
+}
+
+console.log(Hello<string>('Hello').length);
+*/
