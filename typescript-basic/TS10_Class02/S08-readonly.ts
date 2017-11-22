@@ -15,10 +15,10 @@ class Person10_8 {
     }
 
     public setName(name: string) {
-        this._name = name;    // (X)
+        this._name = name;    // readonly이기 떄문에 (X)
     }
 }
 
 const p10_8: Person10_8 = new Person10_8('Jerome');
 console.log(p10_8.age);
-p10_8.age = 27;    // (X)
+p10_8.age = 27;    // readonly이기 떄문에 (X)
