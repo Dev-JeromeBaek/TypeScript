@@ -10,7 +10,7 @@ function writable13_5(canBeWrite: boolean) {
         console.log(propName);
         return {
             writable: canBeWrite
-        }
+        };
     }
 }
 
