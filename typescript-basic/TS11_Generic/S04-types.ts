@@ -4,13 +4,13 @@
             return false 시 오류가 나지 않는다?
 */
 
-type TsHelloGeneric11_4 = <T>(message: T) => T;
+type HelloGeneric11_4 = <T>(message: T) => T;
 
-const tsHello11_4: TsHelloGeneric11_4 = <T>(message: T): T => {
+const hello11_4: HelloGeneric11_4 = <T>(message: T): T => {
     return message;
 }
 
-console.log(tsHello11_4<string>('Hello').length);
+console.log(hello11_4<string>('Hello').length);
 
 /*
 type HelloGeneric = <T>(message: T) => T;

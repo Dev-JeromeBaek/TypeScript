@@ -2,7 +2,7 @@
     ## Generic with extends
 */
 
-class TsPerson11_6<T extends string | number> {
+class Person11_6<T extends string | number> {
     private _name: T;
     private _age: T;
 
@@ -11,8 +11,8 @@ class TsPerson11_6<T extends string | number> {
     }
 }
 
-new TsPerson11_6('Jerome');
-new TsPerson11_6(27);
+new Person11_6('Jerome');
+new Person11_6(27);
 // new Person(true);    // (X)
 // T가 string 또는 number를 상속받기 때문에 boolean은 안된다.
 

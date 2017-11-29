@@ -25,13 +25,13 @@
             - for (const prop of Object.key(obj))도 사용할 수 있다.
 */
 // Example
-const tsArray12_1 = ['first', 'second'];
-const tsObj12_1 = {
+const array12_1 = ['first', 'second'];
+const obj12_1 = {
     name: 'Jerome',
     age: 27
 };
 // 배열에 for..of 이용
-for (const item of tsArray12_1) {
+for (const item of array12_1) {
     console.log(typeof item + ', ' + item);
 }
 // 출력 결과 
@@ -41,7 +41,7 @@ for (const item of tsArray12_1) {
 */
 // 배열에 for.in 이용
 // item 이 string 타입의 숫자
-for (const item in tsArray12_1) {
+for (const item in array12_1) {
     console.log(typeof item + ', ' + item);
 }
 // 출력 결과 
@@ -56,7 +56,7 @@ for (const item of tsObj12_1) {
 }
 */
 // 객체에 for.in 이용
-for (const item in tsObj12_1) {
+for (const item in obj12_1) {
     console.log(typeof item + ', ' + item);
 }
 // 출력 결과 

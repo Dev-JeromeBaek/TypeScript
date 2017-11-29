@@ -4,17 +4,17 @@
         - 2. Generic 타입을 쓰면, T 를 확인
 */
 
-function TsHelloGeneric11_2<T>(message: T): T {
+function HelloGeneric11_2<T>(message: T): T {
     return message;
 }
 
-function TsHello11_2<T>(message: T): T {
+function Hello11_2<T>(message: T): T {
     return message;
 }
 
-console.log(TsHello11_2<string>('Jerome'));
-let tAge11_21 = TsHello11_2(27);
-TsHello11_2<number>('27');    // (X)
+console.log(Hello11_2<string>('Jerome'));
+let age11_21 = Hello11_2(27);
+Hello11_2<number>('27');    // (X)
 
 /*
 function HelloGeneric<T>(message: T): T {

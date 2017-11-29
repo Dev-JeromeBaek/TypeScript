@@ -15,13 +15,13 @@
             
         - es3로 타겟팅 하는 개발자들은 생각을 좀 해봐야 할 문제이다.
 */
-const tsArray12_2 = ['first', 'second'];
+const array12_2 = ['first', 'second'];
 // ts
-tsArray12_2.forEach((item) => {
+array12_2.forEach((item) => {
     console.log(item);
 });
 // js
-tsArray12_2.forEach(function(item) {
+array12_2.forEach(function (item) {
     console.log(item);
 });
 // target 이 es3 인데도 forEach 는 트랜스파일이 되지 않았음.

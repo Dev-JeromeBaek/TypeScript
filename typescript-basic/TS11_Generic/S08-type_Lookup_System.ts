@@ -3,12 +3,12 @@
 
 */
 
-interface TsPerson11_8 {
+interface Person11_8 {
     name: string;
     age: number;
 }
 
-const tsPerson11_8: TsPerson11_8 = {
+const person11_8: Person11_8 = {
     name: 'Jerome',
     age: 27
 };
@@ -21,10 +21,10 @@ function setProperty<T, K extends keyof T>(obj: T, key: K, value: T[K]): void {
     obj[key] = value;
 }
 
-console.log(getProperty(tsPerson11_8, 'name'));
+console.log(getProperty(person11_8, 'name'));
 // console.log(getProperty(tsPerson11_8, fulllname));   // (X)
-setProperty(tsPerson11_8, 'name', 'Jerome');
-console.log(getProperty(tsPerson11_8, 'name'));
+setProperty(person11_8, 'name', 'Jerome');
+console.log(getProperty(person11_8, 'name'));
 // setProperty(tsPerson11_8, 'name', 27);   // (X)
 
 /*

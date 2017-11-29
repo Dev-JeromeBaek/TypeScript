@@ -3,7 +3,7 @@
         - Generic 타입 여러개 지정하기
 */
 
-class TsPerson11_7<T, K> {
+class Person11_7<T, K> {
     private _name: T;
     private _age: K;
 
@@ -21,9 +21,9 @@ class TsPerson11_7<T, K> {
     }
 }
 
-const tsPerson11_7 = new TsPerson11_7('Jerome', 27);
-console.log(tsPerson11_7.getName());
-console.log(tsPerson11_7.getAge());
+const p11_7 = new Person11_7('Jerome', 27);
+console.log(p11_7.getName());
+console.log(p11_7.getAge());
 
 /*
 class Person<T, K> {

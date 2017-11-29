@@ -4,27 +4,27 @@
 */
 
 // 1
-class TsCar {
+class Car10_9 {
     public speed: number = 0;
     constructor(public name: string) {
         
     }
 
-    public tsHook(): void {
+    public hook10_9(): void {
         console.log("부우우웅");
     };
 
-    public tsAccelerate(speed) {
+    public accelerate10_9(speed) {
         this.speed = this.speed + speed;
     }
 }
 
 ///////////////////////////////////////////
-const tsCar: TsCar = new TsCar('BENZ');
-tsCar.tsHook();
-console.log(tsCar.speed);
-tsCar.tsAccelerate(10);
-console.log(tsCar.speed);
+const car10_9: Car10_9 = new Car10_9('BENZ');
+car10_9.hook10_9();
+console.log(car10_9.speed);
+car10_9.accelerate10_9(10);
+console.log(car10_9.speed);
 
 
 // 2

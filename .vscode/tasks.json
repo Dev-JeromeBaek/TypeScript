@@ -23,6 +23,14 @@
             "problemMatcher": [
                 "${workspaceRoot}\\node_modules\\.bin\\tsc"
             ]
+        },
+        {
+            "type": "typescript",
+            "tsconfig": "typescript-basic\\tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "${workspaceRoot}\\node_modules\\.bin\\tsc-watch"
+            ]
         }
     ]
 }
