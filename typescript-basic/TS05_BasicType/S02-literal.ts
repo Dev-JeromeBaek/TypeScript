@@ -8,11 +8,11 @@
 
 27;    // number 리터럴
 'Jerome';    // string 리터럴
-true    // boolean 리터럴
+true;    // boolean 리터럴
 
 // object 리터럴
 {
     name5_21: 'Jerome',
-    age5_21: 27
+    age5_21: 27;
 }
 
