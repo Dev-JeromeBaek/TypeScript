@@ -17,11 +17,9 @@
 function type_guard_example14_5(arg) {
     if (typeof arg === 'string') {
         return arg.substring(0, 3);
-    }
-    else if (arg instanceof Array) {
+    } else if (arg instanceof Array) {
         return arg.join().substring(0, 5);
-    }
-    else {
+    } else {
         return arg.toString();
     }
 }
