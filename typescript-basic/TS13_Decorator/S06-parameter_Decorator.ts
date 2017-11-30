@@ -1,3 +1,7 @@
+/*
+    ## Parameter Decorator
+*/
+
 function print13_6(target: any, methodName: string, paramIndex: number) {
     console.log(target);
     console.log(methodName);

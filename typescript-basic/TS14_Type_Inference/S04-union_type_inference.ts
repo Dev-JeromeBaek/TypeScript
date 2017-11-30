@@ -1,8 +1,7 @@
 /*
     ## Union Type Inference & Type Guard 
         (유니온 타입과 타입 가드)
-        - 타입 가드란?
-            -
+        - 타입 가드란? (따로 정리)
 */
 
 interface Person14_4 {
